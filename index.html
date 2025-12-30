@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magawa Secondary | Official Portal</title>
+    <title>Kawale Private Secondary | Official Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
@@ -16,7 +16,7 @@
             }
         }
 
-        const GITHUB_CONFIG = { owner: "magawass", repo: "kw2", path: "data/content.json" };
+        const GITHUB_CONFIG = { owner: "kawale", repo: "kw2", path: "data/content.json" };
         let adminContent = {
             headerTitle: "Quality Education",
             headerSub: "     ",
@@ -68,7 +68,7 @@
                     renderAdminLists();
                 }
             } catch (error) {
-                adminContent = JSON.parse(localStorage.getItem('magawaAdminContent')) || adminContent;
+                adminContent = JSON.parse(localStorage.getItem('kawaleAdminContent')) || adminContent;
                 updateDisplayContent();
                 renderAdminLists();
             }
@@ -220,12 +220,12 @@
                 const syncRes = await fetch(url, {
                     method: 'PUT',
                     headers: { 'Authorization': `token ${token}`, 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: "Update Magawa Content", content: base64Content, sha: sha })
+                    body: JSON.stringify({ message: "Update Kawale Content", content: base64Content, sha: sha })
                 });
 
                 if (syncRes.ok) {
                     setSyncStatus("✅ SUCCESSFULLY SAVED!");
-                    localStorage.setItem('magawaAdminContent', finalJson);
+                    localStorage.setItem('kawaleAdminContent', finalJson);
                     updateDisplayContent();
                 } else {
                     const errData = await syncRes.json();
@@ -337,7 +337,7 @@
 
             <div class="bg-white p-4 rounded-xl border-2 border-primary/10 mb-6">
                 <label class="label-text">Authentication Token</label>
-                <input type="password" id="ghTokenInput" placeholder="GitHub Access Token" class="admin-input border-dashed border-2">
+                <input type="password" id="ghTokenInput" placeholder="Authorization Code" class="admin-input border-dashed border-2">
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
