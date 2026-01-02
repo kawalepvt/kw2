@@ -1,0 +1,76 @@
+{
+  "term": "3",
+  "generalComment": "Excellent effort. Keep up the hard work.",
+  "gradeKeyLower": {
+    "A": 80,
+    "B": 70,
+    "C": 56,
+    "D": 33,
+    "F": 0
+  },
+  "gradeKeyUpper": {
+    "1": 80,
+    "2": 71,
+    "3": 66,
+    "4": 61,
+    "5": 55,
+    "6": 46,
+    "7": 41,
+    "8": 33,
+    "9": 0
+  },
+  "teachers": {
+    "form1": {
+      "Agriculture": "LUBAINI",
+      "Bible Knowledge": "-",
+      "Biology": "-",
+      "Chemistry": "-",
+      "Chichewa": "-",
+      "English": "-",
+      "Geography": "-",
+      "History": "-",
+      "Mathematics": "-",
+      "Physics": "-",
+      "Social/Life": "-"
+    },
+    "form2": {
+      "Agriculture": "-",
+      "Bible Knowledge": "-",
+      "Biology": "-",
+      "Chemistry": "-",
+      "Chichewa": "-",
+      "English": "-",
+      "Geography": "-",
+      "History": "-",
+      "Mathematics": "-",
+      "Physics": "-",
+      "Social/Life": "-"
+    },
+    "form3": {
+      "Agriculture": "-",
+      "Bible Knowledge": "-",
+      "Biology": "-",
+      "Chemistry": "-",
+      "Chichewa": "-",
+      "English": "-",
+      "Geography": "-",
+      "History": "-",
+      "Mathematics": "-",
+      "Physics": "-",
+      "Social/Life": "-"
+    },
+    "form4": {
+      "Agriculture": "-",
+      "Bible Knowledge": "-",
+      "Biology": "-",
+      "Chemistry": "-",
+      "Chichewa": "-",
+      "English": "-",
+      "Geography": "-",
+      "History": "-",
+      "Mathematics": "-",
+      "Physics": "-",
+      "Social/Life": "-"
+    }
+  }
+}
