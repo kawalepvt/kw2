@@ -1,5 +1,5 @@
 {
-  "term": "3",
+  "term": "1",
   "generalComment": "Excellent effort. Keep up the hard work.",
   "gradeKeyLower": {
     "A": 80,
@@ -21,17 +21,17 @@
   },
   "teachers": {
     "form1": {
-      "Agriculture": "LUBAINI",
+      "Agriculture": "MATOGA",
       "Bible Knowledge": "-",
-      "Biology": "-",
-      "Chemistry": "-",
-      "Chichewa": "-",
-      "English": "-",
-      "Geography": "-",
-      "History": "-",
-      "Mathematics": "-",
-      "Physics": "-",
-      "Social/Life": "-"
+      "Biology": "MATOGA",
+      "Chemistry": "LUBAINI",
+      "Chichewa": "ELIJAH PHIRI",
+      "English": "KAMONGA",
+      "Geography": "MWINAMA",
+      "History": "MWINAMA",
+      "Mathematics": "MKOPOLIWA",
+      "Physics": "SHANGE",
+      "Social/Life": "ELIJAH"
     },
     "form2": {
       "Agriculture": "-",
